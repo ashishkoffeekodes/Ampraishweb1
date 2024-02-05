@@ -3,29 +3,39 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.logo{
+
+.logo {
     width: 35%;
 }
-.banner{
-    background-image:url(../images/header-bg3.png);
+
+.banner {
+    background-image: url(../images/header-bg3.png);
     background-repeat: no-repeat;
     height: 200px;
 }
+
 .carousel-inner {
-    height: 300px; /* Set your desired height here */
+    height: 300px;
+    /* Set your desired height here */
 }
-.card{
+
+.card {
     box-shadow: 10px 10px 9px 2px #9baab0cf;
 }
-footer{
-    background-image:url(../images/footer-bg.png);
+
+footer {
+    background-image: url(../images/footer-bg.png);
     background-repeat: no-repeat;
     height: 320px;
 }
+
 @keyframes upDownAnimation {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
@@ -34,38 +44,54 @@ footer{
 .animatedUpDown {
     animation: upDownAnimation 3s ease-in-out infinite;
 }
+
 .font {
     font-family: 'Roboto Serif', serif;
     font-size: 3rem;
 }
+
 .active {
     color: 11499E !important;
     text-decoration: underline;
 }
+
 .banner-text {
     font-family: 'Roboto Serif', serif;
     letter-spacing: 5px;
     font-size: 3.2rem;
     text-align: center;
 }
+
 .contactus {
     background: linear-gradient(to right, #26559b38, #084d92);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contactbox {
     box-shadow: 0px 0px 12px 0px #00000040;
 }
+
 .contactbox .login_form {
     padding: 3rem;
 }
+
 .form-control {
     border: 0;
     border-bottom: 3px solid #11499E;
     border-radius: 0;
 }
+
 .form_button {
     background-color: #11499E;
     color: #000;
+}
+
+.navbar-toggler {
+    background-color: #11499E;
+}
+
+.navbar-brand {
+    display: contents;
 }

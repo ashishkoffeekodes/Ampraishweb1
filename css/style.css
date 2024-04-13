@@ -18,7 +18,8 @@
 .banner {
     background-image: url(../images/header-bg3.png);
     background-repeat: no-repeat;
-    height: 200px;
+    height: 214px;
+    background-size: cover;
 }
 
 .carousel-inner {
